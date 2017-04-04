@@ -65,11 +65,13 @@ namespace LiteNetLib.Utils
         public byte[] Data
         {
             get { return _data; }
+			set { _data = value; }
         }
 
         public int Length
         {
             get { return _position; }
+			set { _position = value; }
         }
 
         public void Put(float value)
